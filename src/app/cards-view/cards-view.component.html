@@ -1,0 +1,52 @@
+<div class="cards" *ngIf="( cards$ | async )?.book?.title">
+	<h1>
+		<img alt="Book" src="assets/img/framework-book.svg">
+		{{ ( cards$ | async )?.book?.title }}
+		<small>{{ ( cards$ | async )?.book?.id }}</small>
+	</h1>
+
+	<div class="row">
+		<div class="col-sm order-2 order-sm-1">
+			<div class="row">
+				<div class="col-6 col-lg-4 col-xl-3" *ngFor="let card of ( cards$ | async )?.book?.children; let i = index">
+					<div class="card node" data-toggle="tooltip" data-placement="bottom" ngbTooltip="Contains {{ card.children.length }} Section{{ (card.children.length > 1 ? 's' : '') }}" container="body" [@bounce]="{ value: bounce, params: { timing: 1, delay: 0.15*i } }">
+						<h2>
+							{{ card.chapter_id }}
+							<small>{{ card.title }}</small>
+							<div class="icon">
+								<img alt="" src="assets/img/framework-chapter.svg">
+							</div>
+						</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-sm-5 col-lg-4 col-xl-3 order-1 order-sm-2">
+			<div class="card nav">
+				<form>
+					<img src="../assets/img/dropdown.svg" class="selectArrow" />
+					<select>
+						<option disabled="disabled">
+							Chapters
+						</option>
+						<option *ngFor="let chapter of ( cards$ | async )?.book?.children; let i = index">
+							{{ chapter.chapter_id }})
+							{{ chapter.title }}
+						</option>
+					</select>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<pre>{{ cards$ | async | json }}</pre>
+
+<!--
+Store
+<pre>{{ theStore | async | json }}</pre>
+ -->
+
+<div class="loading" *ngIf="!( cards$ | async )?.book?.title">
+<img alt="loading..." src="assets/img/loader.gif">
+</div>

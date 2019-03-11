@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="339px" height="375px" viewBox="0 0 339 375" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="331" height="367"></rect>
+        <filter x="-2.1%" y="-1.4%" width="104.2%" height="103.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="34.4050179" y="58" width="262.189964" height="151"></rect>
+        <circle id="path-5" cx="257.5" cy="94.5" r="17.5"></circle>
+    </defs>
+    <g id="logos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chapter" transform="translate(-39.000000, -16.000000)">
+            <g id="Group" transform="translate(43.000000, 18.000000)">
+                <g id="Rectangle-6">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle-10" fill="#C7C7C7" x="18.9820789" y="10" width="300.154122" height="26"></rect>
+                <rect id="Rectangle-10-Copy-2" fill="#C7C7C7" x="17.7956989" y="231" width="278.799283" height="20"></rect>
+                <rect id="Rectangle-10-Copy-4" fill="#C7C7C7" x="16.609319" y="267" width="291.849462" height="20"></rect>
+                <rect id="Rectangle-10-Copy-6" fill="#C7C7C7" x="16.609319" y="303" width="255.071685" height="20"></rect>
+                <rect id="Rectangle-10-Copy-8" fill="#C7C7C7" x="16.609319" y="339" width="300.154122" height="20"></rect>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Rectangle-10-Copy" fill="#E9E9E9" xlink:href="#path-3"></use>
+                <polygon id="Path-2" stroke="#979797" fill="#D9D9D9" mask="url(#mask-4)" points="61 213.449282 114.885132 140.91941 170.486449 215.017869"></polygon>
+                <polygon id="Path-2-Copy" stroke="#979797" fill="#D9D9D9" mask="url(#mask-4)" points="102.179045 212.752413 180.003496 108 260.306577 215.017869"></polygon>
+                <g id="Oval-6" mask="url(#mask-4)">
+                    <use fill="#D9D9D9" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <circle stroke="#979797" stroke-width="1" cx="257.5" cy="94.5" r="17"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

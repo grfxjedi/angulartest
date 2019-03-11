@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-dropdown</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Pearson-2017-UI-kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Components" transform="translate(-1582.000000, -2721.000000)" fill="#6A7070">
+            <g id="UI-Controls" transform="translate(100.000000, 1434.000000)">
+                <g id="Select-Menu" transform="translate(965.000000, 1096.000000)">
+                    <g id="Select---fancy" transform="translate(205.000000, 160.000000)">
+                        <g id="select-closed">
+                            <path d="M318.243396,31.3376 L315.999396,33.4906 L313.756396,31.3376 C313.389396,30.9226 312.752396,30.8866 312.339396,31.2506 C311.923396,31.6166 311.884396,32.2486 312.252396,32.6616 L315.247396,35.6616 C315.437396,35.8766 315.712396,35.9996 315.999396,35.9996 C316.287396,35.9996 316.561396,35.8766 316.752396,35.6616 L319.747396,32.6616 C320.115396,32.2486 320.076396,31.6166 319.660396,31.2506 C319.248396,30.8876 318.611396,30.9236 318.243396,31.3376 Z" id="icon-dropdown"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

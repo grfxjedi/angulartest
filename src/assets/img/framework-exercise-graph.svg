@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="359px" height="267px" viewBox="0 0 359 267" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="351" height="259"></rect>
+        <filter x="-2.0%" y="-1.9%" width="104.0%" height="105.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="logos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Exercises-Copy" transform="translate(-27.000000, -29.000000)">
+            <g id="Group-2" transform="translate(31.000000, 31.000000)">
+                <g id="Group">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+                <path d="M31.5,18.5 L31.5,201.721178" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+                <path d="M313.379498,201.721178 L31.5,201.721178" id="Line-Copy" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+                <circle id="Oval-8-Copy" fill="#047A9C" cx="161.5" cy="98.5" r="11.5"></circle>
+                <circle id="Oval-8-Copy-3" fill="#047A9C" cx="232.5" cy="129.5" r="11.5"></circle>
+                <circle id="Oval-8-Copy-4" fill="#047A9C" cx="291.5" cy="75.5" r="11.5"></circle>
+                <circle id="Oval-8-Copy-5" fill="#047A9C" cx="74.5" cy="158.5" r="11.5"></circle>
+                <path d="M32.2737353,200.180323 L75.7856873,158.392332 C132.089326,117.211656 161.170389,97.2449604 163.028877,98.4922471 C164.887366,99.7395337 188.020489,111.336033 232.428248,133.281746 L294.472205,74.9189962" id="Path-3" stroke="#047A9C" stroke-width="4"></path>
+                <rect id="Rectangle-10-Copy-18" fill="#047A9C" x="264" y="219" width="67" height="20"></rect>
+                <rect id="Rectangle-10-Copy-19" fill="#D9D9D9" x="183" y="219" width="67" height="20"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
